@@ -1,49 +1,58 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Inspiration Kitchen Pro</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,400&family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,400&family=Nunito:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
     <style>
       :root {
-        --paper: #FDF6E3;
-        --paper-dark: #F5EBD6;
-        --ink: #2A2318;
+        --paper: #fdf6e3;
+        --paper-dark: #f5ebd6;
+        --ink: #2a2318;
         --wood: #433422;
-        --accent: #D97706; /* Burnt Orange */
-        --accent-subtle: #D6C6A6;
+        --accent: #d97706; /* Burnt Orange */
+        --accent-subtle: #d6c6a6;
       }
       body {
-        font-family: 'Nunito', sans-serif;
+        font-family: "Nunito", sans-serif;
         background-color: var(--paper);
         background-image: url("https://www.transparenttextures.com/patterns/cream-paper.png");
         color: var(--ink);
       }
-      h1, h2, h3, h4, .serif {
-        font-family: 'Merriweather', serif;
+      h1,
+      h2,
+      h3,
+      h4,
+      .serif {
+        font-family: "Merriweather", serif;
       }
-      
+
       /* Smooth interactions */
-      button, .card-interactive {
+      button,
+      .card-interactive {
         transition: all 0.2s cubic-bezier(0.25, 0.8, 0.25, 1);
       }
-      button:active, .card-interactive:active {
+      button:active,
+      .card-interactive:active {
         transform: scale(0.98);
       }
 
       /* Artisan Card Style */
       .artisan-card {
-        background-color: #FFFBF0;
+        background-color: #fffbf0;
         border: 1px solid var(--wood);
         box-shadow: 6px 6px 0px rgba(67, 52, 34, 0.15);
         border-radius: 12px;
       }
-      
+
       /* Input Style */
       .artisan-input {
-        background-color: #FFF;
+        background-color: #fff;
         border: 2px solid var(--accent-subtle);
         transition: all 0.3s ease;
         border-radius: 8px;
@@ -66,21 +75,21 @@
         border-radius: 10px;
       }
     </style>
-  <script type="importmap">
-{
-  "imports": {
-    "react": "https://esm.sh/react@^19.2.4",
-    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
-    "react/": "https://esm.sh/react@^19.2.4/",
-    "@google/genai": "https://esm.sh/@google/genai@^1.40.0",
-    "lucide-react": "https://esm.sh/lucide-react@^0.563.0"
-  }
-}
-</script>
-<link rel="stylesheet" href="/index.css">
-</head>
+    <script type="importmap">
+      {
+        "imports": {
+          "react": "https://esm.sh/react@^19.2.4",
+          "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+          "react/": "https://esm.sh/react@^19.2.4/",
+          "@google/genai": "https://esm.sh/@google/genai@^1.40.0",
+          "lucide-react": "https://esm.sh/lucide-react@^0.563.0"
+        }
+      }
+    </script>
+    <link rel="stylesheet" href="index.css" />
+  </head>
   <body>
     <div id="root"></div>
-  <script type="module" src="/index.tsx"></script>
-</body>
+    <script type="module" src="index.tsx"></script>
+  </body>
 </html>
