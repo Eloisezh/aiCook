@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/aiCook/static/css/main.dde074af.css",
+    "main.js": "/aiCook/static/js/main.7d419cb5.js",
+    "index.html": "/aiCook/index.html",
+    "main.dde074af.css.map": "/aiCook/static/css/main.dde074af.css.map",
+    "main.7d419cb5.js.map": "/aiCook/static/js/main.7d419cb5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dde074af.css",
+    "static/js/main.7d419cb5.js"
+  ]
+}
